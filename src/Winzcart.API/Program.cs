@@ -60,7 +60,7 @@ builder.Services.AddCors(options =>
                .AllowAnyHeader();
     });
 });
-
+builder.WebHost.UseUrls("http://0.0.0.0:10000");
 var app = builder.Build();
 
 // Auto-migrate in Development
