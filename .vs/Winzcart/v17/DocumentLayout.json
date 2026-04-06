@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\www\\Winzcart\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A160EF4D-28C3-4368-A8A7-C2427C9909C2}|src\\Winzcart.API\\Winzcart.API.csproj|d:\\www\\winzcart\\src\\winzcart.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A160EF4D-28C3-4368-A8A7-C2427C9909C2}|src\\Winzcart.API\\Winzcart.API.csproj|solutionrelative:src\\winzcart.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\www\\Winzcart\\src\\Winzcart.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Winzcart.API\\Program.cs",
+              "ToolTip": "D:\\www\\Winzcart\\src\\Winzcart.API\\Program.cs",
+              "RelativeToolTip": "src\\Winzcart.API\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T17:31:35.096Z",
+              "EditorCaption": ""
             }
           ]
         }

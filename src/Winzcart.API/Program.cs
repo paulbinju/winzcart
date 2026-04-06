@@ -60,51 +60,18 @@ builder.Services.AddCors(options =>
                .AllowAnyHeader();
     });
 });
-builder.WebHost.UseUrls("http://0.0.0.0:10000");
 var app = builder.Build();
 
-// Auto-migrate in Development
-if (app.Environment.IsDevelopment())
+// Run migrations in all environments
+using (var scope = app.Services.CreateScope())
 {
-    using (var scope = app.Services.CreateScope())
-    {
-        var context = scope.ServiceProvider.GetRequiredService<WinzcartDbContext>();
-        try
-        {
-            // Apply migrations (will create DB if doesn't exist)
-            context.Database.Migrate();
-            
-            // Seed Admin User if not exists
-            var userRepo = scope.ServiceProvider.GetRequiredService<Winzcart.Application.Interfaces.Repositories.IUserRepository>();
-            Task.Run(async () => {
-                var admin = await userRepo.GetByEmailAsync("admin@winzcart.com");
-                if (admin == null)
-                {
-                    string hash = BCrypt.Net.BCrypt.HashPassword("Admin@123");
-                    await userRepo.AddAsync(new Winzcart.Domain.Entities.AppUser
-                    {
-                        Name = "Super Admin",
-                        Email = "admin@winzcart.com",
-                        PasswordHash = hash,
-                        Role = Winzcart.Domain.Enums.UserRole.Admin,
-                        IsActive = true
-                    });
-                    
-                    var uow = scope.ServiceProvider.GetRequiredService<Winzcart.Application.Interfaces.Services.IUnitOfWork>();
-                    await uow.SaveChangesAsync();
-                }
-            }).GetAwaiter().GetResult();
-        }
-        catch (Exception ex)
-        {
-            var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
-            logger.LogError(ex, "An error occurred while migrating or seeding the database.");
-        }
-    }
-
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    var context = scope.ServiceProvider.GetRequiredService<WinzcartDbContext>();
+    context.Database.Migrate();
 }
+
+// Enable Swagger always
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 
