@@ -1,0 +1,11 @@
+D:\www\Winzcart\src\Winzcart.Domain\bin\Debug\net8.0\Winzcart.Domain.deps.json
+D:\www\Winzcart\src\Winzcart.Domain\bin\Debug\net8.0\Winzcart.Domain.dll
+D:\www\Winzcart\src\Winzcart.Domain\bin\Debug\net8.0\Winzcart.Domain.pdb
+D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\Winzcart.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\Winzcart.Domain.AssemblyInfoInputs.cache
+D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\Winzcart.Domain.AssemblyInfo.cs
+D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\Winzcart.Domain.csproj.CoreCompileInputs.cache
+D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\Winzcart.Domain.dll
+D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\refint\Winzcart.Domain.dll
+D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\Winzcart.Domain.pdb
+D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\ref\Winzcart.Domain.dll

@@ -1,0 +1,15 @@
+D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\Winzcart.Application.csproj.AssemblyReference.cache
+D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\Winzcart.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\Winzcart.Application.AssemblyInfoInputs.cache
+D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\Winzcart.Application.AssemblyInfo.cs
+D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\Winzcart.Application.csproj.CoreCompileInputs.cache
+D:\www\Winzcart\src\Winzcart.Application\bin\Debug\net8.0\Winzcart.Application.deps.json
+D:\www\Winzcart\src\Winzcart.Application\bin\Debug\net8.0\Winzcart.Application.dll
+D:\www\Winzcart\src\Winzcart.Application\bin\Debug\net8.0\Winzcart.Application.pdb
+D:\www\Winzcart\src\Winzcart.Application\bin\Debug\net8.0\Winzcart.Domain.dll
+D:\www\Winzcart\src\Winzcart.Application\bin\Debug\net8.0\Winzcart.Domain.pdb
+D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\Winzcart.E1E03294.Up2Date
+D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\Winzcart.Application.dll
+D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\refint\Winzcart.Application.dll
+D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\Winzcart.Application.pdb
+D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\ref\Winzcart.Application.dll

@@ -1,0 +1,17 @@
+D:\www\Winzcart\src\Winzcart.Infrastructure\bin\Debug\net8.0\Winzcart.Infrastructure.deps.json
+D:\www\Winzcart\src\Winzcart.Infrastructure\bin\Debug\net8.0\Winzcart.Infrastructure.dll
+D:\www\Winzcart\src\Winzcart.Infrastructure\bin\Debug\net8.0\Winzcart.Infrastructure.pdb
+D:\www\Winzcart\src\Winzcart.Infrastructure\bin\Debug\net8.0\Winzcart.Application.dll
+D:\www\Winzcart\src\Winzcart.Infrastructure\bin\Debug\net8.0\Winzcart.Domain.dll
+D:\www\Winzcart\src\Winzcart.Infrastructure\bin\Debug\net8.0\Winzcart.Application.pdb
+D:\www\Winzcart\src\Winzcart.Infrastructure\bin\Debug\net8.0\Winzcart.Domain.pdb
+D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\Winzcart.Infrastructure.csproj.AssemblyReference.cache
+D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\Winzcart.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\Winzcart.Infrastructure.AssemblyInfoInputs.cache
+D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\Winzcart.Infrastructure.AssemblyInfo.cs
+D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\Winzcart.Infrastructure.csproj.CoreCompileInputs.cache
+D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\Winzcart.858B5BA5.Up2Date
+D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\Winzcart.Infrastructure.dll
+D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\refint\Winzcart.Infrastructure.dll
+D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\Winzcart.Infrastructure.pdb
+D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\ref\Winzcart.Infrastructure.dll
