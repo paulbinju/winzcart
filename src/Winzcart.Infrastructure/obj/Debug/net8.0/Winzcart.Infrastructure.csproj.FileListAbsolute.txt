@@ -15,3 +15,4 @@ D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\Winzcart.Infrastruc
 D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\refint\Winzcart.Infrastructure.dll
 D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\Winzcart.Infrastructure.pdb
 D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\ref\Winzcart.Infrastructure.dll
+D:\www\Winzcart\src\Winzcart.Infrastructure\obj\Debug\net8.0\Winzcart.Infrastructure.sourcelink.json

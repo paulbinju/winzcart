@@ -13,3 +13,4 @@ D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\Winzcart.Application.d
 D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\refint\Winzcart.Application.dll
 D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\Winzcart.Application.pdb
 D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\ref\Winzcart.Application.dll
+D:\www\Winzcart\src\Winzcart.Application\obj\Debug\net8.0\Winzcart.Application.sourcelink.json

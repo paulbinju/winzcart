@@ -9,3 +9,4 @@ D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\Winzcart.Domain.dll
 D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\refint\Winzcart.Domain.dll
 D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\Winzcart.Domain.pdb
 D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\ref\Winzcart.Domain.dll
+D:\www\Winzcart\src\Winzcart.Domain\obj\Debug\net8.0\Winzcart.Domain.sourcelink.json

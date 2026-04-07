@@ -1,18 +1,4 @@
 services:
-  winzcart-db:
-    image: postgres:15-alpine
-    container_name: winzcart-db
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: Winzcart
-    ports:
-      - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    networks:
-      - winzcart-network
-
   winzcart-api:
     image: winzcart-api
     build:
@@ -21,21 +7,16 @@ services:
     container_name: winzcart-api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings__DefaultConnection=Host=winzcart-db;Port=5432;Database=Winzcart;Username=postgres;Password=postgres
+      - ConnectionStrings__DefaultConnection=Server=db47070.public.databaseasp.net; Database=db47070; User Id=db47070; Password=oB?38qA@D2+w; Encrypt=True; TrustServerCertificate=True; MultipleActiveResultSets=True;
       - JwtSettings__SecretKey=super_secret_key_that_is_at_least_32_characters_long_for_hmacsha256_winzcart!
       - JwtSettings__Issuer=winzcart-api
       - JwtSettings__Audience=winzcart-clients
     ports:
       - "8080:8080"
       - "8081:8081"
-    depends_on:
-      - winzcart-db
     networks:
       - winzcart-network
 
 networks:
   winzcart-network:
     driver: bridge
-
-volumes:
-  postgres_data:

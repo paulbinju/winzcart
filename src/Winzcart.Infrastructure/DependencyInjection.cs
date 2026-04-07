@@ -17,7 +17,9 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<WinzcartDbContext>(options =>
-            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+            options.UseSqlServer(
+                configuration.GetConnectionString("DefaultConnection"),
+                sqlOptions => sqlOptions.EnableRetryOnFailure()));
 
         // Repositories
         services.AddScoped<IUserRepository, UserRepository>();
